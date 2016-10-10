@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_string_10" label="Detailed Description" language="en" table="x_spog_whs_safety_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_10</element>
+            <help/>
+            <hint/>
+            <label>Detailed Description</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <plural>Detailed Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c81859b137d262002a555ca543990ef1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Detailed Description</sys_name>
+            <sys_package display_value="WHS" source="x_spog_whs">d04fc1f9379262002a555ca543990e63</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="WHS">d04fc1f9379262002a555ca543990e63</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_whs_safety_incident_u_string_10_en</sys_update_name>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

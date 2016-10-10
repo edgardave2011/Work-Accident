@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_14" table="x_spog_whs_safety_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Back</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>005e193537d262002a555ca543990e0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:34:13</sys_updated_on>
+            <value>Back</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad1899b137d262002a555ca543990e38</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:34:14</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>251899b137d262002a555ca543990e39</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:34:14</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hand</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c05e193537d262002a555ca543990e0f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:36:46</sys_updated_on>
+            <value>Hand</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>2</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e51899b137d262002a555ca543990e39</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:34:14</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Head</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>2</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>845e193537d262002a555ca543990e0f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:36:46</sys_updated_on>
+            <value>Head</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hip</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>3</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>485e193537d262002a555ca543990e0f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:36:46</sys_updated_on>
+            <value>Hip</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Neck</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>4</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c5e193537d262002a555ca543990e0f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:36:46</sys_updated_on>
+            <value>Neck</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Foot</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>5</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc5e193537d262002a555ca543990e0f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:36:46</sys_updated_on>
+            <value>Foot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_14</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Multiple or Other</label>
+            <language>en</language>
+            <name>x_spog_whs_safety_incident</name>
+            <sequence>6</sequence>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:34:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>805e193537d262002a555ca543990e10</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:36:46</sys_updated_on>
+            <value>Multiple or Other Bodily Location</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_14</element>
+            <name>x_spog_whs_safety_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:07:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>211899b137d262002a555ca543990e39</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_choice_14</sys_name>
+            <sys_package display_value="WHS" source="x_spog_whs">d04fc1f9379262002a555ca543990e63</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="WHS">d04fc1f9379262002a555ca543990e63</sys_scope>
+            <sys_update_name>sys_choice_x_spog_whs_safety_incident_u_choice_14</sys_update_name>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:34:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

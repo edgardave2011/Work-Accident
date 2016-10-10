@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="b70859b137d262002a555ca543990eec" sys_domain="global" table="x_spog_whs_safety_incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff0859b137d262002a555ca543990eec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_whs_safety_incident" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eec</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">3f0859b137d262002a555ca543990eea</sys_ui_section>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>730859b137d262002a555ca543990eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_whs_safety_incident" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eec</sys_ui_form>
+            <sys_ui_section caption="Incident Description" display_value="Incident Description" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">730859b137d262002a555ca543990eeb</sys_ui_section>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b70859b137d262002a555ca543990eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_whs_safety_incident" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eec</sys_ui_form>
+            <sys_ui_section caption="Incident Detail" display_value="Incident Detail" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eeb</sys_ui_section>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c81859b137d262002a555ca543990eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_whs_safety_incident" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eec</sys_ui_form>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">fb0859b137d262002a555ca543990eeb</sys_ui_section>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>001859b137d262002a555ca543990eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_whs_safety_incident" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eec</sys_ui_form>
+            <sys_ui_section caption="3P's (People, Process, Plant)" display_value="3P's (People, Process, Plant)" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">330859b137d262002a555ca543990eec</sys_ui_section>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:15:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>300a91f137d262002a555ca543990ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_whs_safety_incident" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b70859b137d262002a555ca543990eec</sys_ui_form>
+            <sys_ui_section caption="Sign Off" display_value="Sign Off" name="x_spog_whs_safety_incident" sys_domain="global" view="Default view">b80a91f137d262002a555ca543990ee7</sys_ui_section>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:15:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_spog_whs_safety_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sebastian.hassell</sys_created_by>
+            <sys_created_on>2016-10-06 23:06:54</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b70859b137d262002a555ca543990eec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_spog_whs_safety_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="WHS" source="x_spog_whs">d04fc1f9379262002a555ca543990e63</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="WHS">d04fc1f9379262002a555ca543990e63</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b70859b137d262002a555ca543990eec</sys_update_name>
+            <sys_updated_by>sebastian.hassell</sys_updated_by>
+            <sys_updated_on>2016-10-06 23:06:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

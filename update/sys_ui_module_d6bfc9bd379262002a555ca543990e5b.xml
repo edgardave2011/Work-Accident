@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="WHS">5ebfc9bd379262002a555ca543990e5a</application>
+        <filter/>
+        <name>Safety Incidents</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_spog_whs_safety_incident_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>sebastian.hassell</sys_created_by>
+        <sys_created_on>2016-10-06 22:30:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6bfc9bd379262002a555ca543990e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Incidents</sys_name>
+        <sys_package display_value="WHS" source="x_spog_whs">d04fc1f9379262002a555ca543990e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WHS">d04fc1f9379262002a555ca543990e63</sys_scope>
+        <sys_update_name>sys_ui_module_d6bfc9bd379262002a555ca543990e5b</sys_update_name>
+        <sys_updated_by>sebastian.hassell</sys_updated_by>
+        <sys_updated_on>2016-10-06 22:30:29</sys_updated_on>
+        <table>x_spog_whs_safety_incident</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Safety Incident" max_length="40" name="x_spog_whs_safety_incident" type="collection">
+        <element label="Environment" max_length="40" name="contributing_factor_environment" type="boolean"/>
+        <element label="People" max_length="40" name="contributing_factor_people" type="boolean"/>
+        <element label="Plant/Equipment" max_length="40" name="contributing_factor_plantequipment" type="boolean"/>
+        <element label="System" max_length="40" name="contributing_factor_system" type="boolean"/>
+        <element label="Access" max_length="40" name="environment_factor_access" type="boolean"/>
+        <element label="Housekeeping" max_length="40" name="environment_factor_housekeeping" type="boolean"/>
+        <element label="Lighting" max_length="40" name="environment_factor_lighting" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="50" name="environment_factor_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Escalate_No" label="Escalate any actions that are not within the site's control" max_length="40" name="escalate_actions" type="string">
+            <choice>
+                <element label="No" sequence="0" value="Escalate_No"/>
+                <element label="Yes" sequence="1" value="Escalate_Yes"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Job competency" max_length="40" name="people_factor_job_competency" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="50" name="people_factor_other" type="string"/>
+        <element label="PPE not used" max_length="40" name="people_factor_ppe_not_used" type="boolean"/>
+        <element label="Supervision" max_length="40" name="people_factor_supervision" type="boolean"/>
+        <element label="Training" max_length="40" name="people_factor_training" type="boolean"/>
+        <element label="Component failure" max_length="40" name="plant_equipment_factor_component_failure" type="boolean"/>
+        <element label="Design" max_length="40" name="plant_equipment_factor_design" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="50" name="plant_equipment_factor_other" type="string"/>
+        <element label="Size/weight" max_length="40" name="plant_equipment_factor_size_wieght" type="boolean"/>
+        <element label="Maintenance" max_length="40" name="systems_factor_maintenance" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="50" name="systems_factor_other" type="string"/>
+        <element label="Procedures" max_length="40" name="systems_factor_procedures" type="boolean"/>
+        <element label="Task allocation" max_length="40" name="systems_factor_task_allocation" type="boolean"/>
+        <element label="Workload" max_length="40" name="systems_factor_workload" type="boolean"/>
+        <element label="Caller" mandatory="true" max_length="32" name="u_caller_user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Injury Nature" max_length="40" name="u_choice_12" type="string">
+            <choice>
+                <element label="Strain or Sprain" sequence="0" value="Strain or Sprain"/>
+                <element label="Bruise" sequence="1" value="Bruise"/>
+                <element label="Concussion" sequence="2" value="Concussion"/>
+                <element label="Burn" sequence="3" value="Burn"/>
+                <element label="Laceration" sequence="4" value="Laceration"/>
+                <element label="Broken Bone" sequence="5" value="Broken Bone"/>
+                <element label="Rash" sequence="6" value="Rash"/>
+                <element label="Swelling" sequence="7" value="Swelling"/>
+                <element label="Other" sequence="8" value="Other Injury Nature"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Bodily Location" max_length="40" name="u_choice_14" type="string">
+            <choice>
+                <element label="Back" sequence="0" value="Back"/>
+                <element label="Hand" sequence="1" value="Hand"/>
+                <element label="Head" sequence="2" value="Head"/>
+                <element label="Hip" sequence="3" value="Hip"/>
+                <element label="Neck" sequence="4" value="Neck"/>
+                <element label="Foot" sequence="5" value="Foot"/>
+                <element label="Multiple or Other" sequence="6" value="Multiple or Other Bodily Location"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Body Side" max_length="40" name="u_choice_16" type="string">
+            <choice>
+                <element label="Right" sequence="0" value="Right"/>
+                <element label="Left" sequence="1" value="Left"/>
+                <element label="Both" sequence="2" value="Both"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Injury Mechanism" max_length="40" name="u_choice_18" type="string">
+            <choice>
+                <element label="Falls" sequence="0" value="Falls"/>
+                <element label="Chemicals" sequence="1" value="Chemicals"/>
+                <element label="Hitting Object with Body" sequence="2" value="Hitting Object with Body"/>
+                <element label="Mental Stress" sequence="3" value="Mental Stress"/>
+                <element label="Body Stressing" sequence="4" value="Body Stressing"/>
+                <element label="Sound" sequence="5" value="Sound"/>
+                <element label="Heat" sequence="6" value="Heat"/>
+                <element label="Other" sequence="7" value="Other Injury Mechanism"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Injury/Disease Agency" max_length="40" name="u_choice_20" type="string">
+            <choice>
+                <element label="Fixed Machinery/Plant" sequence="0" value="Fixed Machinery/Plant"/>
+                <element label="Chemical" sequence="1" value="Chemical"/>
+                <element label="Mobile Machinery/Plant" sequence="2" value="Mobile Machinery/Plant"/>
+                <element label="Environmental Agencies" sequence="3" value="Environmental Agencies"/>
+                <element label="Tools/Appliances" sequence="4" value="Tools/Appliances"/>
+                <element label="Human/Biological" sequence="5" value="Human/Biological"/>
+                <element label="Materials/Stock" sequence="6" value="Materials/Stock"/>
+                <element label="Other" sequence="7" value="Other Injury Agency"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="Incident Type" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="First Aid Injury" sequence="0" value="First Aid Injury"/>
+                <element label="Near Miss" sequence="1" value="Near Miss"/>
+                <element label="Lost Time Injury (LTI)" sequence="2" value="Lost Time Injury (LTI)"/>
+                <element label="Medicare Treatment Injury (MTI)" sequence="3" value="Medicare Treatment Injury (MTI)"/>
+                <element label="Fatality" sequence="4" value="Fatality"/>
+                <element label="Report Only" sequence="5" value="Report Only"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="Safety Incident State" max_length="40" name="u_choice_38" type="string">
+            <choice>
+                <element label="New" sequence="0" value="New"/>
+                <element label="Under Investigation" sequence="1" value="Under Investigation"/>
+                <element label="More Information Required" sequence="2" value="More Information Required"/>
+                <element label="Resolved" sequence="3" value="Resolved"/>
+                <element label="Closed" sequence="4" value="Closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Person Type" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element label="Team Member" sequence="0" value="Team Member"/>
+                <element label="Contractor" sequence="1" value="Contractor"/>
+                <element label="Customer" sequence="2" value="Customer"/>
+            </choice>
+        </element>
+        <element label="Date Action to be Completed" max_length="40" name="u_glide_date_31" type="glide_date"/>
+        <element label="Sign Off Date" max_length="40" name="u_glide_date_36" type="glide_date"/>
+        <element label="Date Incident Reported" max_length="40" name="u_glide_date_6" type="glide_date"/>
+        <element label="Incident Date &amp;amp; Time " max_length="40" name="u_glide_date_time_5" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="2000" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident Location" max_length="100" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_choice_12" dependent_on_field="u_choice_12" label="Other Injury Nature" max_length="40" name="u_string_13" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_choice_14" dependent_on_field="u_choice_14" label="Other Bodily Location" max_length="40" name="u_string_15" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Injury Mechanism" max_length="40" name="u_string_19" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_choice_20" dependent_on_field="u_choice_20" label="Other Injury/Disease Agency" max_length="40" name="u_string_21" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Lost" max_length="40" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Investigator Name" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Who Was Involved" max_length="40" name="u_string_24" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident Circumstances" max_length="1000" name="u_string_25" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="People (consider training, supervision, behavioral choices/unsafe acts, fatigue)" max_length="1000" name="u_string_27" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Process (consider system of work, work process, SOPs, unsafe conditions)" max_length="1000" name="u_string_28" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Plant (consider work environment, plant, equipment, tools, vehicles)" max_length="1000" name="u_string_29" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What Corrective / Preventative Action is going to be put in place to mitigate th" max_length="2000" name="u_string_30" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hazard Description" max_length="1000" name="u_string_32" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_string_33" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Position" max_length="40" name="u_string_34" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Store Partner(s)" max_length="40" name="u_string_37" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Person Name" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="200" name="u_string_9" type="string"/>
+        <index name="index">
+            <element name="u_caller_user"/>
+        </index>
+    </element>
+</database>
